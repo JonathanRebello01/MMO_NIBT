@@ -8,9 +8,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     >
 
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.constraint.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ExibeTabela"
@@ -39,6 +37,64 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view"
         />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/bt_alterar_dados"
+        style="@style/Button"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button"
+        android:text="@string/bt_alterar_dados"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/bt_excluir_dados"
+        style="@style/Button"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button"
+        android:text="@string/bt_excluir_dados"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TableLayout
+        android:layout_width="409dp"
+        android:layout_height="449dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
 
 </android.support.constraint.ConstraintLayout>
 </android.support.v4.widget.NestedScrollView>

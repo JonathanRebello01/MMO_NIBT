@@ -22,4 +22,6 @@
     <string name="bt_retornar">Retornar</string>
     <string name="tabela_escolhida_GA">GA</string>
     <string name="texto_tabela">Esta é a tabela de MMO escolhida</string>
+    <string name="bt_alterar_dados">Alterar meus dados</string>
+    <string name="bt_excluir_dados">Excluir meus dados</string>
 </resources>
