@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1049748561422",
+    "project_id": "mmo-nibt",
+    "storage_bucket": "mmo-nibt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049748561422:android:18a3adacda27a7380ee65f",
+        "android_client_info": {
+          "package_name": "com.example.mmonibt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049748561422-jtvn5ppdosggp4iqevk4rjtlr7ofm6jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnzKerzO91-WH7fe6RIfkQpLeiaJvTuMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049748561422-jtvn5ppdosggp4iqevk4rjtlr7ofm6jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

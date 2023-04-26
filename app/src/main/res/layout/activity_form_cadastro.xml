@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.v4.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
@@ -8,7 +8,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     >
 
-<android.support.constraint.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FormCadastro"
@@ -126,7 +126,7 @@
         android:layout_marginRight="10dp"
         />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_bt_cadastrar"
         style="@style/Button"
         android:layout_width="125dp"
@@ -141,7 +141,7 @@
         app:layout_constraintTop_toBottomOf="@id/containerComponents"
         />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_limpar"
         style="@style/Button"
         android:layout_width="125dp"
@@ -156,5 +156,5 @@
         app:layout_constraintTop_toBottomOf="@id/containerComponents"
         />
 
-</android.support.constraint.ConstraintLayout>
-</android.support.v4.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
