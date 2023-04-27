@@ -18,7 +18,7 @@
             android:name=".SelecaoOracao"
             android:exported="false" />
         <activity
-            android:name=".SelecaiMemorizacao"
+            android:name=".SelecaoMemorizacao"
             android:exported="false" />
         <activity
             android:name=".TipoTabela"

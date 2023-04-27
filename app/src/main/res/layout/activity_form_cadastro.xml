@@ -43,14 +43,13 @@
         android:id="@+id/containerComponents"
         style="@style/Containercomponents"
         android:layout_width="match_parent"
-        android:layout_height="470dp"
+        android:layout_height="530dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="328dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/view"
-        />
+        app:layout_constraintTop_toBottomOf="@id/view" />
 
     <EditText
         android:id="@+id/edit_nome"
@@ -63,7 +62,7 @@
         />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/edit_email"
         style="@style/Edit_Text"
         android:hint="E-mail"
         android:inputType="textEmailAddress"
@@ -73,42 +72,52 @@
         />
 
     <EditText
-        android:id="@+id/edit_lider"
+        android:id="@+id/edit_lider_ga"
         style="@style/Edit_Text"
         android:hint="Líder de GA"
         android:inputType="text"
-        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/edit_email"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
         />
 
     <EditText
-        android:id="@+id/edit_telefone"
+        android:id="@+id/edit_tel"
         style="@style/Edit_Text"
         android:hint="Telefone"
         android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@+id/edit_lider"
+        app:layout_constraintTop_toBottomOf="@+id/edit_lider_ga"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
         />
 
     <EditText
-        android:id="@+id/edit_ministério"
+        android:id="@+id/edit_senha"
+        style="@style/Edit_Text"
+        android:hint="senha"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/edit_ministerio"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        />
+
+    <EditText
+        android:id="@+id/edit_ministerio"
         style="@style/Edit_Text"
         android:hint="Ministério"
         android:inputType="text"
-        app:layout_constraintTop_toBottomOf="@+id/edit_telefone"
+        app:layout_constraintTop_toBottomOf="@+id/edit_tel"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
         />
 
     <EditText
-        android:id="@+id/edit_metricula"
+        android:id="@+id/edit_matricula"
         style="@style/Edit_Text"
         android:layout_width="140dp"
-        android:hint="Matrícula"
+        android:hint="Matr. SENIB"
         android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@+id/edit_ministério"
+        app:layout_constraintTop_toBottomOf="@+id/edit_senha"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
         app:layout_constraintStart_toEndOf="@id/edit_aniversario"
         android:layout_marginLeft="10dp"
@@ -121,15 +130,16 @@
         android:hint="Data de aniversário"
         android:inputType="date"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
-        app:layout_constraintTop_toBottomOf="@+id/edit_ministério"
-        app:layout_constraintEnd_toStartOf="@id/edit_metricula"
+        app:layout_constraintTop_toBottomOf="@+id/edit_senha"
+        app:layout_constraintEnd_toStartOf="@id/edit_matricula"
         android:layout_marginRight="10dp"
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bt_bt_cadastrar"
+        android:id="@+id/bt_cadastrar"
         style="@style/Button"
         android:layout_width="125dp"
+        android:layout_height="60dp"
         android:background="@drawable/button"
         android:text="@string/bt_cadastrar"
         android:textAllCaps="false"
@@ -145,13 +155,14 @@
         android:id="@+id/bt_limpar"
         style="@style/Button"
         android:layout_width="125dp"
+        android:layout_height="60dp"
         android:background="@drawable/button"
         android:text="@string/bt_limpar"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/bt_bt_cadastrar"
+        app:layout_constraintEnd_toStartOf="@+id/bt_cadastrar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/containerComponents"
         />

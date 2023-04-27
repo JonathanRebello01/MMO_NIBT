@@ -3,7 +3,7 @@ package com.example.mmonibt;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SelecaiMemorizacao extends AppCompatActivity {
+public class SelecaoMemorizacao extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

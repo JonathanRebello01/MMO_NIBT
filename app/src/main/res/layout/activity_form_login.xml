@@ -33,11 +33,11 @@
         app:layout_constraintTop_toBottomOf="@id/logo" />
 
     <EditText
-        android:id="@+id/edit_matricula"
+        android:id="@+id/edit_email"
         style="@style/Edit_Text"
-        android:hint="Matrícula-SENIB"
-        android:drawableRight="@drawable/ic_matricula"
-        android:inputType="number"
+        android:hint="E-mail"
+        android:drawableRight="@drawable/ic_email"
+        android:inputType="text"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
         app:layout_constraintTop_toTopOf="@id/containerComponents"
@@ -52,7 +52,7 @@
         android:inputType="numberPassword"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
-        app:layout_constraintTop_toBottomOf="@id/edit_matricula"
+        app:layout_constraintTop_toBottomOf="@id/edit_email"
         />
 
     <androidx.appcompat.widget.AppCompatButton
